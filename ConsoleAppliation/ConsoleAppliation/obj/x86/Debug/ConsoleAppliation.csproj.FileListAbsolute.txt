@@ -1,0 +1,6 @@
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/bin/Debug/ConsoleAppliation.exe
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/bin/Debug/ConsoleAppliation.pdb
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/obj/x86/Debug/ConsoleAppliation.csprojAssemblyReference.cache
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/obj/x86/Debug/ConsoleAppliation.csproj.CoreCompileInputs.cache
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/obj/x86/Debug/ConsoleAppliation.exe
+/Users/BryanLee/Projects/ConsoleAppliation/ConsoleAppliation/obj/x86/Debug/ConsoleAppliation.pdb
