@@ -1,0 +1,10 @@
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\bin\Debug\QuickMathTest.exe.config
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\bin\Debug\QuickMathTest.exe
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\bin\Debug\QuickMathTest.pdb
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.csprojAssemblyReference.cache
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.Form1.resources
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.Properties.Resources.resources
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.csproj.GenerateResource.cache
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.csproj.CoreCompileInputs.cache
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.exe
+C:\Users\bflye\Dropbox\C#\CIT365\Week2\QuickMathTest\QuickMathTest\obj\Debug\QuickMathTest.pdb
