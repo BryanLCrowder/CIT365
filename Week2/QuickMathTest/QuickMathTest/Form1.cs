@@ -12,6 +12,8 @@ namespace QuickMathTest
 {
     public partial class Form1 : Form
     {
+       
+
         // Create a Random object called randomizer 
         // to generate random numbers.
         Random randomizer = new Random();
@@ -83,12 +85,18 @@ namespace QuickMathTest
             // Start the timer.
             timeLeft = 30;
             timeLabel.Text = "30 seconds";
+            
+           
+            
             timer1.Start();
         }
 
         private bool CheckTheAnswer()
         {
-            if ((addend1 + addend2 == sum.Value)
+
+
+
+                if ((addend1 + addend2 == sum.Value)
          && (minuend - subtrahend == difference.Value)
          && (multiplicand * multiplier == product.Value)
          && (dividend / divisor == quotient.Value))
@@ -100,6 +108,7 @@ namespace QuickMathTest
         {
 
             InitializeComponent();
+            currentDate.Text = DateTime.Now.ToString("dd-MMMM-yy");
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -131,6 +140,32 @@ namespace QuickMathTest
         {
             StartTheQuiz();
             startButton.Enabled = false;
+        }
+
+     
+
+        private void Sum_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void answer_Enter(object sender, EventArgs e)
+        {
+            // Select the whole answer in the NumericUpDown control.
+            NumericUpDown answerBox = sender as NumericUpDown;
+
+            if (answerBox != null)
+            {
+                int lengthOfAnswer = answerBox.Value.ToString().Length;
+                answerBox.Select(0, lengthOfAnswer);
+            }
+            if ((addend1 + addend2 == sum.Value)
+            || (minuend - subtrahend == difference.Value)
+            || (multiplicand * multiplier == product.Value)
+            || (dividend / divisor == quotient.Value))
+            {
+
+            }
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -167,23 +202,20 @@ namespace QuickMathTest
                 quotient.Value = dividend / divisor;
                 startButton.Enabled = true;
             }
-        }
-
-        private void Sum_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void answer_Enter(object sender, EventArgs e)
-        {
-            // Select the whole answer in the NumericUpDown control.
-            NumericUpDown answerBox = sender as NumericUpDown;
-
-            if (answerBox != null)
+            if (timeLeft <= 5)
             {
-                int lengthOfAnswer = answerBox.Value.ToString().Length;
-                answerBox.Select(0, lengthOfAnswer);
+                timeLabel.BackColor = Color.Red;
+
             }
+            else
+            {
+                timeLabel.BackColor = default(Color);
+            }
+        }
+
+        private void CurrentDate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
